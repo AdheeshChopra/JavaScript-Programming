@@ -16,7 +16,18 @@ console.log(interestRate);
 
 let name='Adheesh'; //STRING
 let age=20; //INTEGER
-
 let isApproved=true; //BOOLEAN - TRUE or FALSE
 let firstname = undefined;
 let selectedColor= null;
+
+// REFERENCE TYPES
+
+let person={
+  name:'Adheesh', age: 20
+};
+// DOT NOTATION
+person.name='Chopra';
+// BRACKET NOTATION
+let selection='name';
+person[selection]='Adheesh Chopra';
+console.log(person.name);
