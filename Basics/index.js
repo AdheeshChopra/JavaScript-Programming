@@ -16,4 +16,7 @@ console.log(interestRate);
 
 let name='Adheesh'; //STRING
 let age=20; //INTEGER
+
 let isApproved=true; //BOOLEAN - TRUE or FALSE
+let firstname = undefined;
+let selectedColor= null;
