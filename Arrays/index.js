@@ -14,3 +14,9 @@ const items=numbers
   .map(obj=>obj.value);
 
 console.log(items);
+
+const sum = numbers.reduce(
+  (accumulator, currentValue)=>
+    accumulator+currentValue);
+
+console.log(sum);
